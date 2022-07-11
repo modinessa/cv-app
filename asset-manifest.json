@@ -1,0 +1,19 @@
+{
+  "files": {
+    "main.css": "/cv-app/static/css/main.ca964f3a.css",
+    "main.js": "/cv-app/static/js/main.27eab79d.js",
+    "static/media/main-bg.png": "/cv-app/static/media/main-bg.feb49f49269e448fd18c.png",
+    "static/media/OpenSans-Regular.ttf": "/cv-app/static/media/OpenSans-Regular.57cd57a648021fa1c396.ttf",
+    "static/media/OpenSans-Bold.ttf": "/cv-app/static/media/OpenSans-Bold.a0fe34bea92d4e1a84d6.ttf",
+    "static/media/code.png": "/cv-app/static/media/code.237b3043265e7c1a31e7.png",
+    "static/media/ui.png": "/cv-app/static/media/ui.9a21143a715773c77ef2.png",
+    "static/media/avatar.jpeg": "/cv-app/static/media/avatar.1422792e8166add8cb49.jpeg",
+    "index.html": "/cv-app/index.html",
+    "main.ca964f3a.css.map": "/cv-app/static/css/main.ca964f3a.css.map",
+    "main.27eab79d.js.map": "/cv-app/static/js/main.27eab79d.js.map"
+  },
+  "entrypoints": [
+    "static/css/main.ca964f3a.css",
+    "static/js/main.27eab79d.js"
+  ]
+}
