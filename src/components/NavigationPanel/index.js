@@ -24,7 +24,7 @@ export function NavigationPanel() {
 	}, [navigationIsHide, dispatch]);
 
 	const goBackHandler = useCallback(() =>  {
-		navigate('/');
+		navigate('/cv-app');
 	}, [navigate]);
 
 	return (

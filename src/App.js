@@ -8,7 +8,7 @@ function App() {
 
   return (
 		<Routes>
-			<Route path='/' element={<Main/>} />
+			<Route path='/cv-app' element={<Main/>} />
 			<Route path='/inner' element={<Inner/>}/>
 		</Routes>
   );
