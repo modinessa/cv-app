@@ -49,6 +49,8 @@
 		]
 	},
 	"scripts": {
+		"predeploy": "npm run build",
+		"deploy": "gh-pages -d build",
 		"prepush": "npm run lint && npm run test",
 		"postinstall": "rm -rf .git/hooks/pre-push && node node_modules/husky/bin/install.js && rm -rf .git/hooks/pre-commit",
 		"start": "react-scripts start",
@@ -64,6 +66,7 @@
 			"react-app/jest"
 		]
 	},
+	"homepage": "http://modinessa.github.io/cv-app",
 	"browserslist": {
 		"production": [
 			">0.2%",
@@ -79,6 +82,7 @@
 	"devDependencies": {
 		"@testing-library/react": "^13.3.0",
 		"cross-env": "^7.0.3",
+		"gh-pages": "^4.0.0",
 		"husky": "^8.0.1",
 		"jest": "^28.1.1",
 		"jest-dom": "^4.0.0",
