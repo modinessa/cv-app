@@ -1,0 +1,42 @@
+@import '../../assets/styles/variables.scss';
+
+
+.contacts-container {
+	align-items: center;
+	display: flex;
+	margin-top: 10px;
+	margin-bottom: 10px;
+}
+
+.contacts-container h3,
+h4 {
+	margin-top: 0;
+	margin-bottom: 0;
+}
+
+
+.contact-info {
+	margin-left: 20px;
+}
+
+.fa-icon-contacts {
+	height: 28px;
+	color: $shamrock-color;
+}
+
+.contact-info a {
+	color: $oxford-blue-color;
+	font-family: 'OpenSansBold';
+	line-height: 120%;
+	font-size: 16px;
+	text-decoration: none;
+}
+
+a.small-link {
+	margin-top: 0;
+	margin-bottom: 0;
+	font-family: 'OpenSansReg';
+	line-height: 120%;
+	font-size: 16px;
+	color: $raven-color;
+}

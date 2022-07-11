@@ -1,0 +1,75 @@
+@import '../../assets/styles/variables.scss';
+
+
+.app-button {
+	background-color: $oxford-blue-color;
+	border-radius: 5px;
+	color: $white-color;
+	font-size: 16px;
+	line-height: 120%;
+	padding: 10px 20px;
+	text-align: center;
+	vertical-align: middle;
+}
+
+button:hover {
+	background-color: $shamrock-color;
+}
+
+.link-transparent {
+	background-color: transparent;
+	margin-bottom: 30px;
+}
+
+.link-transparent:hover {
+	background-color: transparent;
+	color: $shamrock-color
+}
+
+.square-top,
+.square-right,
+.square-bottom,
+.square-left {
+	background-color: $oxford-blue-color;
+	width: 30px;
+	height: 30px;
+	padding: 0;
+}
+
+.square-top:hover,
+.square-right:hover,
+.square-bottom:hover,
+.square-left:hover {
+	background-color: $oxford-blue-color;
+}
+
+.square-top {
+	border-radius: 0px 0px 5px 5px;
+}
+
+.square-right {
+	border-radius: 5px 0px 0px 5px;
+}
+
+.square-bottom {
+	border-radius: 5px 5px 0px 0px;
+}
+
+.square-left {
+	border-radius: 0px 5px 5px 0px;
+}
+
+@media (max-width: 600px) {
+	.link-transparent {
+		display: flex;
+		justify-content: center;
+		align-items: center;
+		width: 40px;
+		height: 30px;
+		background-color: $shamrock-color;
+	}
+
+	.link-transparent .text {
+		display: none;
+	}
+}

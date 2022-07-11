@@ -1,0 +1,54 @@
+@import '../../assets/styles/variables.scss';
+
+.time-line-container {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+	padding: 5px 0 0 10px;
+	max-height: 330px;
+	width: calc(100% - 15px);
+	height: 330px;
+	overflow: scroll;
+	-ms-overflow-style: none;
+	scrollbar-width: none;
+}
+
+.time-line-container::-webkit-scrollbar {
+	display: none;
+}
+
+.time-line-item {
+	display: flex;
+	margin-bottom: 10px;
+}
+
+.time-line {
+	display: flex;
+	flex-direction: column;
+	align-items: center;
+}
+
+.line-vert {
+	background-color: $shamrock-color;
+	width: 5px;
+	height: 100%;
+}
+
+.info-container {
+	margin-left: 25px;
+	display: flex;
+}
+
+.triangle-left {
+	width: 0;
+	margin-top: 15px;
+	height: 0;
+	border-top: 10px solid transparent;
+	border-right: 13px solid $gallery-color;
+	border-bottom: 10px solid transparent;
+}
+
+.responce-error {
+	margin-top: 150px;
+	color: $error-color;
+}

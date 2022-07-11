@@ -1,0 +1,52 @@
+@import '../../assets/styles/variables.scss';
+
+.app-navigation-panel {
+	background-color: $white-color;
+	display: flex;
+	min-width: 280px;
+	padding-top: 20px;
+	height: 100%;
+	position: fixed;
+	transition: all 0.6s ease;
+}
+
+.nav-closed {
+	transform: translateX(-250px);
+}
+
+.panel {
+	background-color: $oxford-blue-color;
+	display: flex;
+	align-items: center;
+	flex-direction: column;
+	min-width: 250px;
+	margin-top: -20px;
+	padding-top: 20px;
+	transition: all 0.6s ease;
+}
+
+.nav-menu {
+	align-items: center;
+	width: 100%;
+	height: 100%;
+	display: flex;
+	flex-direction: column;
+	justify-content: space-between;
+}
+
+@media (max-width: 600px) {
+
+	.app-navigation-panel {
+		min-width: 84px;
+	}
+
+	.panel {
+		min-width: 54px;
+		transition: all 0.6s ease;
+		overflow-x: hidden;
+	}
+
+	.nav-closed {
+		transform: translateX(-54px);
+	}
+}

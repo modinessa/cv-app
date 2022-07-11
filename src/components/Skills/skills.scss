@@ -1,0 +1,65 @@
+@import '../../assets/styles/variables.scss';
+
+.skills-title {
+	display: flex;
+	justify-content: space-between;
+	align-items: center;
+	width: 100%;
+}
+
+.edit-skills {
+	border: 1px solid $shamrock-color;
+	padding: 20px 15px;
+	margin-top: 10px;
+	margin-bottom: 30px;
+	border-radius: 5px;
+}
+
+.submit-btn {
+	background-color: $oxford-blue-color;
+	border: none;
+	border-radius: 5px;
+	color: $white-color;
+	font-weight: 400;
+	font-size: 16px;
+	line-height: 120%;
+	padding: 10px 20px;
+	text-align: center;
+	vertical-align: middle;
+	margin: 10px 0 0 10px;
+	width: 100px;
+}
+
+.submit-btn:hover {
+	background-color: $oxford-blue-color;
+	color: $shamrock-color;
+}
+
+.submit-btn:disabled {
+	background-color: $oxford-blue-color;
+	color: $raven-color;
+}
+
+.skill-ranges {
+	margin-top: 10px;
+	display: flex;
+	flex-direction: column;
+}
+
+.ruler-labels {
+	position: relative;
+}
+
+.item-2 {
+	position: absolute;
+	left: 25%;
+	text-align: center;
+	transform: translateX(-50%);
+}
+
+.item-3 {
+	position: absolute;
+	left: 75%;
+	text-align: center;
+	transform: translateX(-50%);
+}

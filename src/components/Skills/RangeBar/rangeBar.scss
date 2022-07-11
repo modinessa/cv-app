@@ -1,0 +1,13 @@
+@import '../../../assets/styles/variables.scss';
+
+.range-bar {
+	background-color: $shamrock-color;
+	color: $white-color;
+	display: inline;
+	margin-bottom: 5px;
+	padding: 5px 15px 5px 15px;
+	max-height: 20px;
+	white-space: nowrap;
+	text-overflow: ellipsis;
+	overflow: hidden;
+}
